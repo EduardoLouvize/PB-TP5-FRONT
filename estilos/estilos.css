@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    height: 1024px;
+    width: 1440px;
+    margin: auto;
+}
+
+header {
+    height: 250px;
+    background-color: #262626;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+}
+
+button.botao-login,
+button.botao-cadastro {
+    height: 56px;
+    background-color: #262626;
+    border: 1px solid #C3E0E5;
+    border-radius: 5px;
+    color: #C3E0E5;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.botao-login {
+    width: 79px;
+}
+
+.botao-cadastro {
+    width: 128px;
+}
+
+.botoes {
+    display: flex;
+}
+
+.botoes div {
+    margin-top: 45px;
+}
+
+.cadastro {
+    margin-right: 36px;
+    margin-left: 57px;
+}
+
+main {
+    height: 574px;
+    background-color: #145DA0;
+    display: flex;
+    flex-direction: column;
+}
+
+.busca {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 29px;
+    flex-wrap: nowrap;
+}
+
+input#cidade {
+    width: 365px;
+    height: 36px;
+    border-radius: 10px;
+    margin-left: 276px;
+    margin-right: 42px;
+}
+
+input#evento {
+    width: 452px;
+    height: 36px;
+    border-radius: 10px;
+    margin-right: 17px;
+}
+
+button.buscar {
+    width: 89px;
+    height: 56px;
+    background: rgba(12, 45, 72, 0.51);
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #FFF;
+    cursor: pointer;
+    border: none;
+}
+
+nav.link-eventos {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 326px;
+    margin-right: 344px;
+}
+
+button.link-eventos {
+    width: 200px;
+    height: 100px;
+    background: #B5EDF7;
+    border-radius: 10px;
+    color: #000;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    border: none;
+}
+
+.eventos-titulo {
+    margin-top: 41px;
+    margin-bottom: 41px;
+    margin-left: 127px;
+    text-decoration: underline #C3E0E5;
+}
+
+h1 {
+    height: 42px;
+    left: 127px;
+    top: 484px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #C3E0E5;
+}
+
+.banner-eventos {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 129px;
+    margin-right: 129px;
+}
+
+.evento {
+    width: 180px;
+    height: 240px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+
+footer {
+    height: 200px;
+    background-color: #262626;
+    display: flex;
+}
+
+.footer-1 {
+    margin-top: 31px;
+    margin-left: 41px;
+    margin-right: 148px;
+}
+
+.footer-2 {
+    margin-top: 31px;
+}
+
+.footer-3 {
+    margin-top: 31px;
+    margin-left: 100px;
+}
+
+footer a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #AAAAAA;
+}
+
+.sobre-nos,
+.ajuda {
+    margin-bottom: 27px;
+}
