@@ -144,6 +144,10 @@ button.link-eventos {
     border: none;
 }
 
+button.link-eventos:hover {
+    background-color: #70dff3;
+}
+
 .eventos-titulo {
     margin-top: 41px;
     margin-bottom: 41px;
@@ -174,6 +178,11 @@ h1 {
     width: 180px;
     height: 240px;
     background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+
+.evento img {
+    width: 100%;
+    height: 100%;
 }
 
 footer {
