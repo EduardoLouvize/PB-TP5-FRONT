@@ -65,25 +65,49 @@ main {
 
 .busca {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     margin-top: 10px;
     margin-bottom: 29px;
+    margin-left: 276px;
     flex-wrap: nowrap;
+}
+
+.busca-cidade {
+    display: flex;
+    align-items: center;
+}
+
+.busca-evento {
+    display: flex;
+    align-items: center;
+}
+
+.form-busca {
+    display: flex;
+}
+
+figure {
+    display: inline;
+    position: relative;
+    left: 22px;
 }
 
 input#cidade {
     width: 365px;
     height: 36px;
     border-radius: 10px;
-    margin-left: 276px;
     margin-right: 42px;
+    text-indent: 25px;
 }
 
 input#evento {
     width: 452px;
     height: 36px;
     border-radius: 10px;
+    margin-left: 0;
     margin-right: 17px;
+    text-indent: 25px;
 }
 
 button.buscar {

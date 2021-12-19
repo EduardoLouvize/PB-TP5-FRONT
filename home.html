@@ -29,9 +29,15 @@
 
         <main>
             <div class="busca">
-                <form action="">
-                    <input type="search" name="cidade" id="cidade" placeholder="Buscar por cidade"><i class="fa fa-regular fa-magnifying-glass"></i>
-                    <input type="search" name="evento" id="evento" placeholder="Pesquisar evento"><i class="fa fa-regular fa-magnifying-glass"></i>
+                <form action="" class="form-busca">
+                    <div class="busca-cidade">
+                        <figure><i class="fa fa-search" aria-hidden="true"></i></figure>
+                        <input type="search" name="cidade" id="cidade" placeholder="Buscar por cidade">
+                    </div>
+                    <div class="busca-evento">
+                        <figure><i class="fa fa-search" aria-hidden="true"></i></figure>
+                        <input type="search" name="evento" id="evento" placeholder="Pesquisar evento">
+                    </div>
                     <button class="buscar" type="submit" name="buscar">Buscar</button>
                 </form>
             </div>
